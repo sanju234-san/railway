@@ -1,0 +1,24 @@
+create database train;
+use train;
+ create table traindetail
+ (
+ tnum integer(5),
+ tname char(30),
+ ac1 integer,
+ ac2 integer,
+ ac3 integer,
+ slp integer
+ );
+
+ create table passengers
+ (
+ pname varchar(30),
+ age integer,
+ trainno integer,
+ noofpas integer,
+ cls char(20),
+ amt integer,
+ status char(20),
+ pnrno integer
+ );
+
